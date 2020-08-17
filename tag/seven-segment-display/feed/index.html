@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>seven segment display &#8211; Deep Focus</title>
+	<atom:link href="https://fazals.ddns.net/tag/seven-segment-display/feed/" rel="self" type="application/rss+xml" />
+	<link>http://fazals.ddns.net/</link>
+	<description>Embrace it!</description>
+	<lastBuildDate>Mon, 17 Aug 2020 07:17:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5</generator>
+
+<image>
+	<url>https://fazals.ddns.net/wp-content/uploads/2020/08/react-native-300-150x150.png</url>
+	<title>seven segment display &#8211; Deep Focus</title>
+	<link>http://fazals.ddns.net/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">173186184</site>	<item>
+		<title>How to connect seven segment display with 8051&#124; Easiest method &#124; Proteus Simulation</title>
+		<link>https://fazals.ddns.net/seven-segment-display-with-8051-proteus-simulation/</link>
+		
+		<dc:creator><![CDATA[fazalfarhan01]]></dc:creator>
+		<pubDate>Sat, 02 May 2020 10:21:25 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Education]]></category>
+		<category><![CDATA[8051]]></category>
+		<category><![CDATA[at89c51]]></category>
+		<category><![CDATA[seven segment display]]></category>
+		<guid isPermaLink="false">https://fazals.ddns.net/?p=745</guid>
+
+					<description><![CDATA[In this post you will learn how to interface seven segment display with the 8051 microcontroller (AT89C51) in multiplexed method, alternatively rolling seven segment display in a simulation software called Proteus. The basic concept behind multiplexed seven segment display is to turn on one display at a time, at a rate so fast that it &#8230;<p class="read-more"> <a class="" href="https://fazals.ddns.net/seven-segment-display-with-8051-proteus-simulation/"> <span class="screen-reader-text">How to connect seven segment display with 8051&#124; Easiest method &#124; Proteus Simulation</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[
+<p>In this post you will learn how to interface seven segment display with the 8051 microcontroller (AT89C51) in multiplexed method, alternatively rolling seven segment display in a simulation software called <strong>Proteus</strong>.</p>
+
+
+
+<p>The basic concept behind multiplexed seven segment display is  to turn on <strong>one</strong> display at a time, at a rate so fast that it seems to our eyes that all of the displays are turned on. I will be using 8 such displays and show you how to use them in the right way.</p>
+
+
+
+<h2>Introduction to seven segment display</h2>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:33.33%">
+<figure class="wp-block-image size-large"><img loading="lazy" width="150" height="200" src="https://fazals.ddns.net/wp-content/uploads/2020/08/7-Segment-Display.png" alt="" class="wp-image-2606"/></figure>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p>As it can be seen from the picture beside that the digit 8 is made up of 7 segments which can be indivisually turned on or off to display a character. Also, make a note that it can be used to display all the numbers, but not all the letters. For instance, letters like Z, N, G, J, K, M, Q, R, and so on can&#8217;t be displayed. While letters like O, B, D cause a lot of confusion when interpreting. </p>
+
+
+
+<p>The displays can be used in 2 modes or <strong>2 configurations</strong>.<br>1. Common Anode (common +ve terminal)<br>2. Common Cathode (common ground)<br>We will be using the 2nd one, the common cathode or the common ground because it causes less confusions in logics.</p>
+</div>
+</div>
+
+
+
+<p>We will be using the entire 8 bit port. So we have to connect <strong>led A</strong> to the <strong>MSB</strong>, <strong>led B</strong> to <strong>next LSB </strong>and so on up till the last one. This will make the <strong>led G </strong>connect to the<strong> last but one </strong>bit. The last bit will have to be connected to the DP, or the point. </p>
+
+
+
+<p>So inorder to display the letter <strong>A</strong>, you must turn on led E, F, A, B, C, G and turn off the rest. That combination would give us <strong>11101110 </strong>in binary that has to be sent to the required port. Like wise, to display the letter <strong>E</strong>, would have to send <strong>10011110</strong> in binary to the required port. This covers the basics.</p>
+
+
+
+<h2>The Hardware</h2>
+
+
+
+<p>Indeed the first thing you need to do is to set up the hardware. Connect the seven segment displays as shown in the schematic. If you have indivisual displays and not blocks of them. Just connect them in parallel and then connect them to the microcontroller.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="349" src="https://fazals.ddns.net/wp-content/uploads/2020/08/7-Segment-Display-Module.png" alt="" class="wp-image-2605" srcset="https://fazals.ddns.net/wp-content/uploads/2020/08/7-Segment-Display-Module.png 1024w, https://fazals.ddns.net/wp-content/uploads/2020/08/7-Segment-Display-Module-300x102.png 300w, https://fazals.ddns.net/wp-content/uploads/2020/08/7-Segment-Display-Module-768x262.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Seven Segment Display</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="976" height="1024" src="https://fazals.ddns.net/wp-content/uploads/2020/08/7-Segment-Schematic.png" alt="" class="wp-image-2604" srcset="https://fazals.ddns.net/wp-content/uploads/2020/08/7-Segment-Schematic.png 976w, https://fazals.ddns.net/wp-content/uploads/2020/08/7-Segment-Schematic-286x300.png 286w, https://fazals.ddns.net/wp-content/uploads/2020/08/7-Segment-Schematic-768x806.png 768w" sizes="(max-width: 976px) 100vw, 976px" /><figcaption>The 8051 μController</figcaption></figure></div>
+
+
+
+<h2>The assembly code</h2>
+
+
+
+<p>In order to use the seven segment display, we need to use the lookup table method. Lookup table method is a way to access the data based on the addresses or in programming terminology, the indexed. So we will write the table starting from location <strong>500h </strong>on the <strong>ROM</strong> as follows.</p>
+
+
+
+<pre class="wp-block-code"><code lang="vim" class="language-vim">org 500h
+numbers: db 11111100b, 01100000b, 11011010b, 11110010b, 01100110b, 10110110b, 10111110b, 11100000b, 11111110b, 11110110b
+_H: db 01101110b
+_E: db 10011110b
+_L: db 00011100b
+_O: db 11111100b
+_A: db 11101110b
+_F: db 10001110b
+_Z: db 11011010b
+_C: db 10011100B
+_: db 00000001b</code></pre>
+
+
+
+<p>The 1st bit from the right, in other words, the LSB, corresponds to the <strong>point</strong> (DP) led on the seven segment display. So sending the value <strong>00000001b</strong> to the displays will turn on the point. The MSB bit corresponds to the segment A, the next bit to B, the next one to C and so on up to G.</p>
+
+
+
+<h3>The main program</h3>
+
+
+
+<pre class="wp-block-code"><code lang="vim" class="language-vim">org 0000h
+mov p1, #0ffh
+mov p2, #00h</code></pre>
+
+
+
+<p>Port 1 is set to turn off all the displays, and Port 2 is cleared to configure it as output port.</p>
+
+
+
+<pre class="wp-block-code"><code lang="vim" class="language-vim">startOver:mov dptr, #_H
+acall display1
+mov dptr, #_E
+acall display2
+mov dptr, #_L
+acall display3
+mov dptr, #_L
+acall display4
+mov dptr, #_O
+acall display5
+mov dptr, #_
+acall display6
+mov dptr, #_
+acall display7
+mov dptr, #_
+acall display8
+sjmp startOver</code></pre>
+
+
+
+<p>the command <span class="has-inline-color has-vivid-green-cyan-color">mov </span><span class="has-inline-color has-vivid-purple-color">dptr</span>, <span class="has-inline-color has-vivid-red-color">#_H </span>loads the hex value of code from the lookup table. Since we have used 8 displays in multiplexed mode, the subroutine <span class="has-inline-color has-vivid-green-cyan-color">acall </span><span class="has-inline-color has-luminous-vivid-orange-color">display1 </span>send the data to 1st display and turns the display ON for some time and then turns it OFF. Similarly, <span class="has-inline-color has-vivid-green-cyan-color">acall </span><span class="has-inline-color has-luminous-vivid-orange-color">display2</span> sends the data to 2nd display, turns it ON for some time and then turns it OFF. The rest of the commands similar to <span class="has-inline-color has-vivid-green-cyan-color">acall </span><span class="has-inline-color has-luminous-vivid-orange-color">display*</span> send the data to corresponding display, turns it ON for some time and then turns it OFF again. </p>
+
+
+
+<p>Since this process is repeated at a very high rate, our eyes perceives them as if all the displays are turned ON simultainously.</p>
+
+
+
+<pre class="wp-block-code"><code lang="wasm" class="language-wasm">acall routine:clr a
+movc a, @a+dptr
+mov p2, a
+acall lessDelay                   ;CAN BE OMITTED
+ret
+
+display1:clr p1.7
+acall routine
+setb p1.7
+ret
+
+display2:clr p1.6
+acall routine
+setb p1.6
+ret
+
+display3:clr p1.5
+acall routine
+setb p1.5
+ret
+
+display4:clr p1.4
+acall routine
+setb p1.4
+ret
+
+display5:clr p1.3
+acall routine
+setb p1.3
+ret
+
+display6:clr p1.2
+acall routine
+setb p1.2
+ret
+
+display7:clr p1.1
+acall routine
+setb p1.1
+ret
+
+display8:clr p1.0
+acall routine
+setb p1.0
+ret</code></pre>
+
+
+
+<p>Now the delay function is as follows. You can omit the delay part if you want</p>
+
+
+
+<pre class="wp-block-code"><code lang="wasm" class="language-wasm">lessDelay:mov r0, #0fh
+loop5:mov r1, #127
+loop4:djnz r1, loop4
+djnz r0, loop5
+ret</code></pre>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p>Download the assembly language codes, .asm file as well as the Proteus file from here.</p>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:33.33%">
+<div class="wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link has-very-light-gray-color has-text-color" href="https://github.com/fazalfarhan01/assignments/tree/master/ec420/2.7Segment" style="border-radius:27px" target="_blank" rel="noreferrer noopener">DOWNLOAD</a></div>
+</div>
+</div>
+</div>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="340" src="https://fazals.ddns.net/wp-content/uploads/2020/08/7-segment-displaying-hello.png" alt="" class="wp-image-2603" srcset="https://fazals.ddns.net/wp-content/uploads/2020/08/7-segment-displaying-hello.png 1024w, https://fazals.ddns.net/wp-content/uploads/2020/08/7-segment-displaying-hello-300x100.png 300w, https://fazals.ddns.net/wp-content/uploads/2020/08/7-segment-displaying-hello-768x255.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>You can customize the code and workaround to have your content displayed.</p>
+
+
+
+<p>Visit my <a rel="noreferrer noopener" class="rank-math-link" href="https://github.com/fazalfarhan01/" target="_blank">github <img class="wp-image-859" style="width: 20px;" src="https://fazals.ddns.net/wp-content/uploads/2020/05/25231.png" alt="github icon"> page</a> for more codes like this.</p>
+
+
+
+<p>Intrested in <a rel="noreferrer noopener" href="https://fazals.ddns.net/create-your-website-for-free/" target="_blank">creating a website for free </a>? Or <a href="https://fazals.ddns.net/blynk-server-setup/" target="_blank" rel="noopener">setting up your own Blynk server for IoT </a>?</p>
+
+
+
+<p>Care to share.<img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f604.png" alt="😄" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">745</post-id>	</item>
+	</channel>
+</rss>
