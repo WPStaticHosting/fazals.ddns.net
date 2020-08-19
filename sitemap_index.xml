@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//fazals.ddns.net/main-sitemap.xsl"?>
-<sitemapindex xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
 		<loc>https://fazals.ddns.net/post-sitemap.xml</loc>
 		<lastmod>2020-08-17T15:32:09+05:30</lastmod>
