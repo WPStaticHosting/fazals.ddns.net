@@ -2,13 +2,26 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://fazals.ddns.net/</loc>
-		<lastmod>2020-08-20T14:47:50+05:30</lastmod>
+		<lastmod>2020-08-20T15:25:12+05:30</lastmod>
 		<image:image>
 			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/flower-729512_1920-1.jpg</image:loc>
 			<image:title><![CDATA[flower-729512_1920.jpg]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Blynk_logo_diamond2x-300x115.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/404-page/</loc>
+		<lastmod>2020-08-20T16:13:53+05:30</lastmod>
+		<image:image>
+			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Oval.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Fill-1.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Oval-Copy.png</image:loc>
 		</image:image>
 	</url>
 	<url>
