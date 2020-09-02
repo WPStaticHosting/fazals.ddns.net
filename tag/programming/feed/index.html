@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>programming &#8211; Deep Focus</title>
+	<atom:link href="https://fazals.ddns.net/tag/programming/feed/" rel="self" type="application/rss+xml" />
+	<link>http://fazals.ddns.net/</link>
+	<description>Embrace it!</description>
+	<lastBuildDate>Mon, 17 Aug 2020 07:30:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>https://fazals.ddns.net/wp-content/uploads/2020/08/react-native-300-150x150.png</url>
+	<title>programming &#8211; Deep Focus</title>
+	<link>http://fazals.ddns.net/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">173186184</site>	<item>
+		<title>Timers &#124; Toggling in 8051 every 1 second using timer delay</title>
+		<link>https://fazals.ddns.net/toggle-a-pin-in-8051-every-1-second-using-timers/</link>
+		
+		<dc:creator><![CDATA[fazalfarhan01]]></dc:creator>
+		<pubDate>Tue, 19 May 2020 17:48:04 +0000</pubDate>
+				<category><![CDATA[Education]]></category>
+		<category><![CDATA[Assembly]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[8051]]></category>
+		<category><![CDATA[assembly]]></category>
+		<category><![CDATA[at89c51]]></category>
+		<category><![CDATA[c]]></category>
+		<category><![CDATA[embedded c]]></category>
+		<category><![CDATA[programming]]></category>
+		<category><![CDATA[toggle every second]]></category>
+		<guid isPermaLink="false">https://fazals.ddns.net/?p=1322</guid>
+
+					<description><![CDATA[Toggle pin P1.5 on the 8051 microcontroller using timer in both assembly language and in embedded c.]]></description>
+										<content:encoded><![CDATA[
+<p>The 8051 or the AT89C51 is an 8-bit microcontroller. The 8051 microcontroller was designed long ago by <a rel="noreferrer noopener" href="https://www.google.com/search?q=intel" target="_blank">Intel</a>. It has a 40 pin DIP &#8211; Dual Inline Package. It has 4 kilobytes of ROM, 128 bytes of ram, two internal timers, and 5 interrupts. Namely, INT0, TF0, INT1, TF1 and RI/TI. The order of priority is same as the order they are written. It also has 1 non-maskable interrupt &#8211; RESET.</p>
+
+
+
+<p>There are 2 timers available in the 8051. The <span class="has-inline-color has-luminous-vivid-orange-color"><strong>timer0 </strong></span>and the <span class="has-inline-color has-luminous-vivid-orange-color"><strong>timer1</strong></span>, and there are 4 modes in which both of these timers can be configured. And each of it can be configured as a <span class="has-inline-color has-vivid-purple-color"><strong>Timer </strong></span>or as a <span class="has-inline-color has-vivid-purple-color"><strong>Counter</strong></span>.</p>
+
+
+
+
+
+<h2 id="timer_vs_counter">Difference between timers and counters</h2>
+
+
+
+<p>Timer in 8051 is used to provide timing or delays between two events in the controller. Whereas, a counter is used to count the number of events. The <strong><span class="has-inline-color has-vivid-purple-color">TMOD</span> </strong>or the <strong><span class="has-inline-color has-vivid-purple-color">Timer MOD </span></strong>register, which is a byte addressable register, is used to configure the timer/counter. <br>Consider the TMOD register as shown below. The 0th and the 1st bit is used to configure the modes for <span class="has-inline-color has-luminous-vivid-orange-color"><strong>timer0</strong></span>, and the 4th and 5th bit for <strong><span class="has-inline-color has-luminous-vivid-orange-color">timer1</span></strong>. <br>The 2nd and the 6th bit is used for configuring it in either timer mode or counter mode for timer0 and timer1 respectively. If the 2nd/6th bit is 0, its configured as timer, else it&#8217;s in counter mode.</p>
+
+
+
+<figure class="wp-block-image alignwide size-large is-style-default"><img loading="lazy" width="1024" height="122" src="https://fazals.ddns.net/wp-content/uploads/2020/08/TMOD-1024x122.png" alt="" class="wp-image-2623" title="the TMOD register visual" srcset="https://fazals.ddns.net/wp-content/uploads/2020/08/TMOD-1024x122.png 1024w, https://fazals.ddns.net/wp-content/uploads/2020/08/TMOD-300x36.png 300w, https://fazals.ddns.net/wp-content/uploads/2020/08/TMOD-768x92.png 768w, https://fazals.ddns.net/wp-content/uploads/2020/08/TMOD.png 1527w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>The TMOD Register in 8051</figcaption></figure>
+
+
+
+<ol><li><strong>Gate</strong>: The gate bit decides whether the timer is controlled &#8211; RUN or STOP, with the internal interrupts, <span class="has-inline-color has-vivid-green-cyan-color">TR0 </span>and <span class="has-inline-color has-vivid-green-cyan-color">TR1</span> or the external ones &#8211; <span class="has-inline-color has-vivid-green-cyan-color">INT0 </span>&amp; <span class="has-inline-color has-vivid-green-cyan-color">INT1</span>.</li><li><strong>C/T</strong>: This bit decides whether to operate in timer mode or in counter mode</li><li><strong>M0, M1</strong>: These bits decides the mode of operation of the timers.</li></ol>
+
+
+
+<h2 id="timer_modes">Timer modes in 8051</h2>
+
+
+
+<p>There are 4 timer modes in the 8051 microcontroller.</p>
+
+
+
+<ul><li>Mode 0<br>Mode 0 is a 13-bit timer/counter. All the 8 bits from the upper byte are used with 5 most significant bit from the lower byte. Timer in this mode can be used by status check method. Maximum delay in this mode is 8.8 millisecond at a crystal frequency of 11.0592 MHz.</li><li>Mode 1<br>When using mode 1, the timer/counter is configured in 16-bit mode. To be specific, it&#8217;s counts all the way from 0x0000 to 0xffff. And this mode gives a maximum delay of 71.106 millisecond, again at a crystal frequency of 11.0592 MHz.</li><li>Mode 2<br>In mode 2 configuration, the timer/counter works in 8 bit mode but has a special feature this time. It has auto reload capacity. Meaning that, it can run continuously, all on its own, reloading the timer with the value stored in the higher byte. This mode is usually used for setting the baud rate for serial communication.</li><li>Mode 3<br>Mode 3 is a split mode where in the timer or counter operates in the 8-bit mode. The TL0 uses the timer flag TF0, where as the TH0 uses the timer flag TF1. Yes, its timer0 using flags of both timer0 and timer1.</li></ul>
+
+
+
+<h2>The concept of delays and timers</h2>
+
+
+
+<p>Now that you know the basic working of the timers in the 8051 microcontroller, let&#8217;s go through the concept of delays.<br>Delays are nothing but the cycles of operation with in the controller where the controller does nothing, literally nothing. If you know any programming language, its similar to a for or while loop that does nothing. </p>
+
+
+
+<p>The most common clock frequency in the 8051 is 11.0592 MHz. The main reason to use this frequency is it compatibility with the most common baud rates in serial communication. Now, this clock frequency will give us a machine cycle time period of 1.085 microsecond. For a delay of 1 second, we need 921600 machine cycles. </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="237" src="https://fazals.ddns.net/wp-content/uploads/2020/08/machine-cycle-time-period-1024x237.png" alt="" class="wp-image-2624" srcset="https://fazals.ddns.net/wp-content/uploads/2020/08/machine-cycle-time-period-1024x237.png 1024w, https://fazals.ddns.net/wp-content/uploads/2020/08/machine-cycle-time-period-300x70.png 300w, https://fazals.ddns.net/wp-content/uploads/2020/08/machine-cycle-time-period-768x178.png 768w, https://fazals.ddns.net/wp-content/uploads/2020/08/machine-cycle-time-period.png 1282w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>We will be using timer0 in <a href="#timer_modes">mode 1</a> configuration. Since it&#8217;s a 16-bit timer the maximum delay will be 71.11 millisecond. So, we need to run the timer for 14 complete cycles + 4096 machine cycles. I&#8217;ll leave the calculations to you.</p>
+
+
+
+<p>So, now that we are done with the theory. Let&#8217;s have a look at the code.</p>
+
+
+
+<h2>The Assembly Code</h2>
+
+
+
+<pre class="wp-block-code"><code lang="cpp" class="language-cpp">				org 0000h
+					mov p1, #00h
+					mov tmod, #01h
+loop:				cpl p1.5    ;compliment pin 1.5
+					acall delay
+					acall smallDelay
+					sjmp loop
+
+;the subroutine delay is to loop for 14 complete 16-bit timer cycles
+;and the subroutine smallDelay is for looing for 4096 times.
+;the rest of the code is self explainatory. 					
+					
+delay:				mov r0, #14
+					mov tl0, #00h
+					mov th0, #00h
+					setb tr0
+timerLoop:			jnb tf0, timerLoop
+					clr tf0
+					djnz r0, timerLoop
+					clr tr0
+					ret
+
+smallDelay:			mov tl0, #00h
+					mov th0, #0f0h
+					setb tr0
+timerLoop2:			jnb tf0, timerLoop2
+					clr tr0
+					clr tf0
+					ret
+					
+					end</code></pre>
+
+
+
+<p><a rel="noreferrer noopener" href="https://github.com/fazalfarhan01/assignments/blob/master/ec420/9.toggleEverySecond/toggleEverySecond.asm" target="_blank">Download the code from here</a>.<br>This code will result in toggling of pin 1.5 every second, only if operating at 11.0592 MHz. The C-equivalent code for the same program is also geven.</p>
+
+
+
+
+
+<h2>The embedded C Code | 8051 timer programming in C</h2>
+
+
+
+<pre class="wp-block-code"><code lang="c" class="language-c">#include&lt;reg51.h>
+
+sbit pin = P1^5;
+
+void delay(){
+    int i;
+    TMOD = 0x01;
+    for(i=0; i&lt;1000; i++){
+				TH0 = 0xFC;
+				TL0 = 0x66;
+				TR0 = 1;
+        while(TF0 != 1){
+            ;
+        }
+				TR0 = 0;
+        TF0 = 0;
+    }
+}
+
+void main(){
+    while (1)
+    {
+        pin = ~pin;
+        delay();
+    }
+    
+}</code></pre>
+
+
+
+<p><a rel="noreferrer noopener" href="https://github.com/fazalfarhan01/assignments/blob/master/ec420/9.toggleEverySecond/toggleEverySecond.c" target="_blank">Download this code from my Github</a>.<br>That completes the part of toggling any pin with a delay of exactly 1 second.</p>
+
+
+
+<p><a href="https://fazals.ddns.net/tag/8051/" target="_blank" rel="noreferrer noopener">Read more posts on 8051 from here</a>.</p>
+
+
+
+<h2>FAQs</h2>
+
+
+<div id="rank-math-faq" class="rank-math-block">
+<div class="rank-math-list ">
+<div id="faq-question-5ec976ef25319" class="rank-math-list-item">
+<h3 class="rank-math-question ">How do I change the pin that has to be toggled?</h3>
+<div class="rank-math-answer "><p>You can do that by simply changing the line <code>cpl p1.5</code> or the line <code>sbit pin = P1^5;</code> in embedded C to the required pin. You can also modify the code to toggle an entire port instead of a single pin.</p>
+</div>
+</div>
+<div id="faq-question-5ec976ef2531c" class="rank-math-list-item">
+<h3 class="rank-math-question ">What&#8217;s the difference between a Timer and a Counter?</h3>
+<div class="rank-math-answer "><p>I suggest you read <a href="#timer_vs_counter">this </a>again.</p>
+</div>
+</div>
+<div id="faq-question-5ec976ef2531d" class="rank-math-list-item">
+<h3 class="rank-math-question ">How do I change the time for toggling?</h3>
+<div class="rank-math-answer "><p>Simply change the delay function, by changing the value in the TH0 and TL0.</p>
+</div>
+</div>
+<div id="faq-question-5ec976ef2531e" class="rank-math-list-item">
+<h3 class="rank-math-question ">What are the different timer/counter modes in 8051</h3>
+<div class="rank-math-answer "><p>Read about <a href="#timer_modes">timer/counter modes from here</a>.</p>
+</div>
+</div>
+</div>
+</div>]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1322</post-id>	</item>
+		<item>
+		<title>Realtime Spectrum Analyser using Python &#124; Part-1</title>
+		<link>https://fazals.ddns.net/spectrum-analyser-part-1/</link>
+		
+		<dc:creator><![CDATA[fazalfarhan01]]></dc:creator>
+		<pubDate>Sat, 09 May 2020 08:11:12 +0000</pubDate>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[programming]]></category>
+		<category><![CDATA[python 3]]></category>
+		<category><![CDATA[spectrum analyser]]></category>
+		<guid isPermaLink="false">https://fazals.ddns.net/?p=865</guid>
+
+					<description><![CDATA[A Spectrum Analyser measures the amplitude or the magnitude of the input signal, with respect to the frequency. Its mainly used to analyse the amplitude of signals at different frequencies. Python is a high level interpreted, multipurpose programming language. If you ever wanted to build your own audio spectrum analyser, that works out of the &#8230;<p class="read-more"> <a class="" href="https://fazals.ddns.net/spectrum-analyser-part-1/"> <span class="screen-reader-text">Realtime Spectrum Analyser using Python &#124; Part-1</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class="ast-oembed-container"><iframe title="Realtime Audio Spectrum Analyser Using Python 3 | Part 1" width="1200" height="675" src="https://www.youtube.com/embed/f9Qi5wsDido?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div></figure>
+
+
+
+<p>A Spectrum Analyser measures the amplitude or the magnitude of the input signal, with respect to the frequency. Its mainly used to analyse the amplitude of signals at different frequencies. </p>
+
+
+
+<p>Python is a high level interpreted, multipurpose programming language. If you ever wanted to build your own audio spectrum analyser, that works out of the box with your microphone in Windows, linux or Mac, you are at the right place.</p>
+
+
+
+<p>A realtime spectrum analyser doesn&#8217;t have any build time or lag. The analyser is able to sample the incoming spectrum in the time domain and convert the sampled information into frequency domain. </p>
+
+
+
+<p>The algorithm that we will be using to convert the time domain signal to frequency domain is called <strong>FFT</strong>. Briefly, <strong>fast fourier transform</strong>. The Numpy&#8217;s fft library for Python is used to generate the fft for the python spectrum analyser or the python audio audio visualizer.</p>
+
+
+
+<h2>Libraries Required for python spectrum analyser / audio visualizer</h2>
+
+
+
+<p>For the first part of the video, where we sample the audio from the microphone and display it in the time domain. We will be needing the following Python Libraries.</p>
+
+
+
+<ol><li><strong>Numpy</strong><br>Numpy is a Python Library that adds support for large, multi-dimentional arrays and matrices. It has high level mathematical functions to operate on the data.</li><li><strong>PyAudio</strong><br>PyAudio is another Python Library that can be easily used to play and record audio with Python on a variety of platforms.</li><li><strong>Struct</strong><br>Struct is another Python module that performs conversion between Python values and C structures. It basically performes conversion of data from binaries to their equivalent python data types.</li><li><strong>MatPlotLib</strong><br>Matplotlib is a library for the Python and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+.</li></ol>
+
+
+
+<h2>Installing Libraries</h2>
+
+
+
+<p>Installing the required libraries is very simple. <br>To install Numpy, run the following command in CLI</p>
+
+
+
+<pre class="wp-block-code"><code lang="bash" class="language-bash">pip install numpy</code></pre>
+
+
+
+<p>Installing MatPlotLib and PyAudio is done in the same way.</p>
+
+
+
+<pre class="wp-block-code"><code lang="bash" class="language-bash">pip install PyAudio
+pip install matplotlib</code></pre>
+
+
+
+<p id="problemInstalling">If you face any <strong>problem installing PyAudio</strong>, download the .whl file based on your Python version and system architecture from <a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio" target="_blank" rel="noreferrer noopener">here</a>, and then run the command</p>
+
+
+
+<pre class="wp-block-code"><code lang="bash" class="language-bash">pip install /path_to_whl_file/filename.whl</code></pre>
+
+
+
+<p>The Struct module comes pre-installed with Python.</p>
+
+
+
+<h2>The code</h2>
+
+
+
+<p>As always in Python we start off with importing the required libraries.</p>
+
+
+
+<p><a href="#the_code">Skip the explination and jump to the complete code.</a></p>
+
+
+
+<pre class="wp-block-code"><code lang="python" class="language-python">import numpy as np
+import pyaudio as pa 
+import struct 
+import matplotlib.pyplot as plt </code></pre>
+
+
+
+<p>Then, we initialize some variables. <br><strong><em>CHUNK </em></strong>is the number of samples that will be processed and displayed at any instance of time. <br><strong><em>FORMAT </em></strong>is the data type that the PyAudio library will output.<br><strong><em>CHANNELS</em></strong> is the number of channels our microphone has.<br><strong><em>RATE </em></strong>is the sampling rate. We will chose the most common one, that is 44100Hz or 44.1KHz.</p>
+
+
+
+<pre class="wp-block-code"><code lang="python" class="language-python">CHUNK = 1024 * 2
+FORMAT = pa.paInt16
+CHANNELS = 1
+RATE = 44100 # in Hz</code></pre>
+
+
+
+<p>Next we create a PyAudio object from class PyAudio and store it in a variable <strong><em>p.</em></strong></p>
+
+
+
+<pre class="wp-block-code"><code lang="python" class="language-python">p = pa.PyAudio()</code></pre>
+
+
+
+<p>Then, we use the <strong><em>open</em></strong> method on the object <strong><em>p</em></strong> and pass on the variables we initialiszed as parameters.</p>
+
+
+
+<pre class="wp-block-code"><code lang="python" class="language-python">stream = p.open(
+    format = FORMAT,
+    channels = CHANNELS,
+    rate = RATE,
+    input=True,
+    output=True,
+    frames_per_buffer=CHUNK
+)</code></pre>
+
+
+
+<p>Now, we will initiallise the plot with random values and set the limits for each of the two axises.</p>
+
+
+
+<pre class="wp-block-code"><code lang="python" class="language-python">fig,ax = plt.subplots()
+x = np.arange(0,2*CHUNK,2)
+line, = ax.plot(x, np.random.rand(CHUNK),'r')
+ax.set_ylim(-32770,32770)
+ax.ser_xlim = (0,CHUNK)
+fig.show()</code></pre>
+
+
+
+<p>Finally, we create an infinite loop and read the data from the microphone, convert the data into 16-bit numbers and further plot it using the matplotlib.pyplot function.</p>
+
+
+
+<pre class="wp-block-code"><code lang="python" class="language-python">while 1:
+    data = stream.read(CHUNK)
+    dataInt = struct.unpack(str(CHUNK) + 'h', data)
+    line.set_ydata(dataInt)
+    fig.canvas.draw()
+    fig.canvas.flush_events()</code></pre>
+
+
+
+<p>Now when you run the code. You should be able to see the program running flawlessly. If you encounter any error, check the default input device in your sound settings.</p>
+
+
+
+<h2 id="the_code">The complete code</h2>
+
+
+
+<pre class="wp-block-code"><code lang="python" class="language-python">import numpy as np 
+import pyaudio as pa 
+import struct 
+import matplotlib.pyplot as plt 
+
+CHUNK = 1024 * 2
+FORMAT = pa.paInt16
+CHANNELS = 1
+RATE = 44100 # in Hz
+
+p = pa.PyAudio()
+
+stream = p.open(
+    format = FORMAT,
+    channels = CHANNELS,
+    rate = RATE,
+    input=True,
+    output=True,
+    frames_per_buffer=CHUNK
+)
+
+
+
+fig,ax = plt.subplots()
+x = np.arange(0,2*CHUNK,2)
+line, = ax.plot(x, np.random.rand(CHUNK),'r')
+ax.set_ylim(-60000,60000)
+ax.ser_xlim = (0,CHUNK)
+fig.show()
+
+while 1:
+    data = stream.read(CHUNK)
+    dataInt = struct.unpack(str(CHUNK) + 'h', data)
+    line.set_ydata(dataInt)
+    fig.canvas.draw()
+    fig.canvas.flush_events()</code></pre>
+
+
+
+<div class="wp-block-buttons alignright">
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://fazals.ddns.net/spectrum-analyser-part-2/" target="_blank" rel="noreferrer noopener">Part 2</a></div>
+</div>
+
+
+
+<p>This completes the part one. Feel free to comment and discuss. <br>Want to learn <a href="https://fazals.ddns.net/blynk-server-setup/" target="_blank" rel="noopener">how to create and setup your own Blynk server to get started with IoT </a>?<br>Or want to know <a href="https://fazals.ddns.net/create-your-website-for-free/" target="_blank" rel="noopener">how I created this website</a>? Do care to give a thumbs up and share.<img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f604.png" alt="😄" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">865</post-id>	</item>
+	</channel>
+</rss>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>pi hole &#8211; Deep Focus</title>
+	<atom:link href="https://fazals.ddns.net/tag/pi-hole/feed/" rel="self" type="application/rss+xml" />
+	<link>http://fazals.ddns.net/</link>
+	<description>Embrace it!</description>
+	<lastBuildDate>Mon, 17 Aug 2020 07:27:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>https://fazals.ddns.net/wp-content/uploads/2020/08/react-native-300-150x150.png</url>
+	<title>pi hole &#8211; Deep Focus</title>
+	<link>http://fazals.ddns.net/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">173186184</site>	<item>
+		<title>PI-Hole &#124; The Black hole of internet ads &#124; How to install ?</title>
+		<link>https://fazals.ddns.net/pi-hole-install/</link>
+		
+		<dc:creator><![CDATA[fazalfarhan01]]></dc:creator>
+		<pubDate>Wed, 08 Apr 2020 01:02:36 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[pi hole]]></category>
+		<category><![CDATA[Raspberry Pi]]></category>
+		<guid isPermaLink="false">http://34.67.2.195/?p=220</guid>
+
+					<description><![CDATA[Ever wanted to surf the web without the annoying ads? Tired of watching ads on YouTube as your favourite video loads? Certainly as there is saying, &#8220;Every problem has a solution&#8221;, those annoying ads have a solution too. And that would be the Pi-Hole. Pi-Hole, is an network level ad blocker that can do wonders. &#8230;<p class="read-more"> <a class="" href="https://fazals.ddns.net/pi-hole-install/"> <span class="screen-reader-text">PI-Hole &#124; The Black hole of internet ads &#124; How to install ?</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[
+<p class="has-drop-cap has-medium-font-size">Ever wanted to surf the web without the annoying ads? Tired of watching ads on YouTube as your favourite video loads? Certainly as there is saying, &#8220;Every problem has a solution&#8221;, those annoying ads have a solution too. And that would be the Pi-Hole.</p>
+
+
+
+<span id="more-220"></span>
+
+
+
+<p class="has-medium-font-size">Pi-Hole, is an network level ad blocker that can do wonders. It blocks the ads from the network so that you have an ad free browsing experience. No sluggish browser add-ons, no jailbreaking, no rooting just to block ads.</p>
+
+
+
+<h2>Installing Pi-Hole</h2>
+
+
+
+<p class="has-medium-font-size">Pi-Hole can be literally installed on any linux distribution, docker, and even on a raspberry Pi, hence the Pi-Hole. Installing Pi-Hole is as simple as running a shell script. Yes, that&#8217;s all you have to do. Copy and paste the code below in your terminal, and follow on, that should do it. How ever if you want to do it on your won follow this <a href="http://gestyy.com/w9KKhw" target="_blank" rel="noreferrer noopener">link</a>.</p>
+
+
+
+<pre class="wp-block-code"><code class="">curl -sSL https://install.pi-hole.net | bash</code></pre>
+
+
+
+<p class="has-medium-font-size">If you encounter any problems at any time, visit the official Pi-Hole website and consider reading the documentation ping the community forum for more details. There are other methods that can be used to install Pi-Hole in your desired system and the details to that can be found <a href="http://gestyy.com/w9KKhw" target="_blank" rel="noreferrer noopener">here</a>.</p>
+
+
+
+<h2>Configuring it.</h2>
+
+
+
+<p class="has-medium-font-size">Next step is to configure your client devices (any device connected to the network) to use the Pi-Hole as the DNS server. DNS stands for domain name server, it translates the domain names (such as google.com) to it&#8217;s equivalent IP address (such as 172.217.xxx.xxx), you can always ping to the domain name from your terminal / command prompt / Powershell.</p>
+
+
+
+<p class="has-medium-font-size">For example run the code below in terminal / CMD / Powershell to find Google&#8217;s public IP Address.</p>
+
+
+
+<pre class="wp-block-code"><code class="">ping google.com</code></pre>
+
+
+
+<p class="has-medium-font-size">Now, that you know what DNS is, you can configure it. You can change the DNS in your router&#8217;s DHCP settings. Or you can change the DNS in your device&#8217;s network settings.</p>
+
+
+
+<p class="has-medium-font-size">To change the DNS in your Windows PC, go to start and type in <strong>Network Status</strong>, then click on <strong>Change adapter options</strong>.</p>
+
+
+
+<p class="has-medium-font-size">A new window will open, right click your network adapter and click on <strong>Properties</strong>. In the <strong>Networking </strong>tab, double click <strong>Internet Protocol Version 4 (TCP/IPv4)</strong>. Then select <strong>Use the following DNS server addresses </strong>and type in the IP address of the device in which the Pi-Hole is installed. </p>
+
+
+
+<p class="has-medium-font-size">For more information on how to ues Pi-Hole as DNS server, visit the Documentation <a href="http://gestyy.com/w9KKzD" target="_blank" rel="noreferrer noopener">here</a>.</p>
+
+
+
+<p class="has-medium-font-size">And thats it. Most of the ads on your brouser are now sucessfully blocked now. </p>
+
+
+
+<p class="has-medium-font-size">Want to read more on <strong>technology</strong>? Visit my related posts to tech <a rel="noreferrer noopener" href="https://fazals.ddns.net/category/tech/" target="_blank">here</a>. Good Day.<img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">220</post-id>	</item>
+	</channel>
+</rss>
