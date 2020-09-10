@@ -2,11 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://fazals.ddns.net/subject/ec510-linear-algebra-and-applications/</loc>
-		<lastmod>2020-09-03T18:52:50+05:30</lastmod>
+		<lastmod>2020-09-10T13:21:41+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/subject/ec520-advanced-communication/</loc>
+		<lastmod>2020-09-10T13:20:56+05:30</lastmod>
 	</url>
 	<url>
 		<loc>https://fazals.ddns.net/subject/ec530-microwave-and-antennas/</loc>
-		<lastmod>2020-09-09T16:42:53+05:30</lastmod>
+		<lastmod>2020-09-10T13:22:23+05:30</lastmod>
 	</url>
 	<url>
 		<loc>https://fazals.ddns.net/subject/ec540-control-systems/</loc>
@@ -14,7 +18,7 @@
 	</url>
 	<url>
 		<loc>https://fazals.ddns.net/subject/ec550-digital-signal-processing/</loc>
-		<lastmod>2020-09-09T16:44:05+05:30</lastmod>
+		<lastmod>2020-09-10T22:40:40+05:30</lastmod>
 	</url>
 	<url>
 		<loc>https://fazals.ddns.net/subject/ec560-data-structures-and-algorithms/</loc>
