@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/be11e294d7.js" crossorigin="anonymous"></script>
+    <style>
+        .link-color {
+            color: #FF7F00;
+        }
+
+        .fab.fa-instagram {
+            color: transparent;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+
+        .fab.fa-facebook {
+            color: #3b5998;
+        }
+
+        .fab.fa-twitter {
+            color: #00acee;
+        }
+
+        .fab.fa-google-plus {
+            color: #db4a39;
+        }
+        .company-logo{
+            height: 54px;
+        }
+        .icons{
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body style="background-color: #e9ecef;">
+    <div class="container shadow mt-5">
+        <div class="row bg-white">
+            <div class="col-md-6 border-bottom">
+                <img src="company-logo.png" alt="Logo" class="company-logo rounded mx-auto d-block">
+            </div>
+            <div class="col-md-6 border-bottom">
+                <nav class="navbar navbar-expand-sm bg-white justify-content-center text-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link link-color text-danger" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-color text-danger" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-color text-danger" href="#">Services</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link link-color text-danger" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 bg-white">
+                <div class="row">
+                    <div class="col-sm" style="padding: 5% 15% 0% 15%;">
+                        <script
+                            src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_L0FsjQ.json"
+                            background="transparent" speed="1" style="width: 100%;" loop autoplay>
+                        </lottie-player>
+                    </div>
+                </div>
+                <div class="row mt-3 mb-5">
+                    <div class="col text-center">
+                        <i class="fab fa-facebook fa-2x icons shadow rounded-circle p-2"></i>
+                    </div>
+                    <div class="col text-center">
+                        <i class="fab fa-google-plus fa-2x icons shadow rounded-circle p-2"></i>
+                    </div>
+                    <div class="col text-center">
+                        <i class="fab fa-twitter fa-2x icons shadow rounded-circle p-2"></i>
+                    </div>
+                    <div class="col text-center">
+                        <i class="fab fa-instagram fa-2x icons shadow rounded-circle p-2"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 px-5" style="background-color: #fff5e8;">
+                <h2 class="mt-5" style="font-weight: bold;">Contact Us</h2>
+                <p style="color: gray;">Fill in the fields below and we'll get back to you</p>
+                <form action="#" class="mb-5">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name" id="name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Details" id="details" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn shadow btn-warning">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
