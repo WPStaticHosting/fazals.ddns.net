@@ -2,11 +2,35 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://fazals.ddns.net/class/</loc>
-		<lastmod>2020-09-11T12:32:16+05:30</lastmod>
+		<lastmod>2020-09-14T10:50:19+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec540-tutorial-1/</loc>
+		<lastmod>2020-09-14T10:50:19+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec520-class-2/</loc>
+		<lastmod>2020-09-14T10:49:28+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec530-class-7/</loc>
+		<lastmod>2020-09-11T16:10:51+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec510-tutorial-class-1/</loc>
+		<lastmod>2020-09-11T16:10:13+05:30</lastmod>
 	</url>
 	<url>
 		<loc>https://fazals.ddns.net/class/ec540-class-5/</loc>
-		<lastmod>2020-09-11T12:32:16+05:30</lastmod>
+		<lastmod>2020-09-11T13:00:22+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec550-class-4/</loc>
+		<lastmod>2020-09-11T12:55:43+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec550-class-3/</loc>
+		<lastmod>2020-09-11T12:55:15+05:30</lastmod>
 	</url>
 	<url>
 		<loc>https://fazals.ddns.net/class/ec550-class-4-2/</loc>
@@ -25,20 +49,12 @@
 		<lastmod>2020-09-10T13:20:56+05:30</lastmod>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/class/ec550-class-4/</loc>
-		<lastmod>2020-09-09T16:44:05+05:30</lastmod>
-	</url>
-	<url>
 		<loc>https://fazals.ddns.net/class/ec530-class-5/</loc>
 		<lastmod>2020-09-09T16:42:53+05:30</lastmod>
 	</url>
 	<url>
 		<loc>https://fazals.ddns.net/class/ec560-class-2/</loc>
 		<lastmod>2020-09-09T00:12:25+05:30</lastmod>
-	</url>
-	<url>
-		<loc>https://fazals.ddns.net/class/ec550-class-3/</loc>
-		<lastmod>2020-09-09T00:11:16+05:30</lastmod>
 	</url>
 	<url>
 		<loc>https://fazals.ddns.net/class/ec540-class-3/</loc>
