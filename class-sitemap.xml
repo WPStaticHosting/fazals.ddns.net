@@ -2,7 +2,55 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://fazals.ddns.net/class/</loc>
-		<lastmod>2020-09-26T19:13:23+05:30</lastmod>
+		<lastmod>2020-09-30T20:11:35+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec530-class-14/</loc>
+		<lastmod>2020-09-30T20:11:35+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec550-class-11/</loc>
+		<lastmod>2020-09-30T20:11:27+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec510-class-10/</loc>
+		<lastmod>2020-09-30T20:11:18+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec540-class-12/</loc>
+		<lastmod>2020-09-30T20:11:08+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec550-lab-4/</loc>
+		<lastmod>2020-09-29T18:17:49+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec560-class-7/</loc>
+		<lastmod>2020-09-29T18:17:37+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec550-class-10/</loc>
+		<lastmod>2020-09-29T18:17:25+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec540-class-11/</loc>
+		<lastmod>2020-09-29T18:17:10+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec560-class-6/</loc>
+		<lastmod>2020-09-29T18:16:56+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec510-class-9/</loc>
+		<lastmod>2020-09-29T18:16:39+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec520-class-8/</loc>
+		<lastmod>2020-09-29T18:16:20+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec530-class-13/</loc>
+		<lastmod>2020-09-29T18:15:50+05:30</lastmod>
 	</url>
 	<url>
 		<loc>https://fazals.ddns.net/class/ec550-tutorials-2/</loc>
