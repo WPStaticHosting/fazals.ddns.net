@@ -2,7 +2,43 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://fazals.ddns.net/class/</loc>
-		<lastmod>2020-09-30T20:11:35+05:30</lastmod>
+		<lastmod>2020-10-06T11:04:35+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec560-class-8/</loc>
+		<lastmod>2020-10-06T11:04:35+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec510-class-12/</loc>
+		<lastmod>2020-10-05T15:34:32+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec530-class-16/</loc>
+		<lastmod>2020-10-05T15:32:08+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec550-tutorials-3/</loc>
+		<lastmod>2020-10-03T20:40:31+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec520-class-9/</loc>
+		<lastmod>2020-10-03T20:40:02+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec540-tutorials-4/</loc>
+		<lastmod>2020-10-03T20:38:47+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec550-class-12/</loc>
+		<lastmod>2020-10-02T20:39:25+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec510-class-11/</loc>
+		<lastmod>2020-10-02T20:38:32+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec530-class-15/</loc>
+		<lastmod>2020-10-02T20:37:59+05:30</lastmod>
 	</url>
 	<url>
 		<loc>https://fazals.ddns.net/class/ec530-class-14/</loc>
