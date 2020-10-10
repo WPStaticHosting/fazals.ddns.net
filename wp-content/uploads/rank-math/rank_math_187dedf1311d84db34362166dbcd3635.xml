@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//ftm.ddns.net/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://ftm.ddns.net/subject/ec510-linear-algebra-and-applications/</loc>
+		<lastmod>2020-10-09T10:29:10+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://ftm.ddns.net/subject/ec520-advanced-communication/</loc>
+		<lastmod>2020-10-09T10:30:23+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://ftm.ddns.net/subject/ec530-microwave-and-antennas/</loc>
+		<lastmod>2020-10-09T10:28:40+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://ftm.ddns.net/subject/ec540-control-systems/</loc>
+		<lastmod>2020-10-08T10:02:33+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://ftm.ddns.net/subject/ec550-digital-signal-processing/</loc>
+		<lastmod>2020-10-09T10:29:54+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://ftm.ddns.net/subject/ec560-data-structures-and-algorithms/</loc>
+		<lastmod>2020-10-09T10:30:47+05:30</lastmod>
+	</url>
+</urlset>
