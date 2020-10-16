@@ -21,12 +21,14 @@ print("""*****************************************************************
 
 *****************************************************************""")
 
-url = input("\n\nEnter the URL to the Sitemaps Index\nLeave blank for using default:\n\n")
-if len(url) < 1:
-    url = "http://ftm.ddns.net/sitemap_index.xml"
-    print("Using Default URL:",url)
-else:
-    print("Using URL:",url)
+# url = input("\n\nEnter the URL to the Sitemaps Index\nLeave blank for using default:\n\n")
+# if len(url) < 1:
+#     url = "http://ftm.ddns.net/sitemap_index.xml"
+#     print("Using Default URL:",url)
+# else:
+#     print("Using URL:",url)
+url = "http://ftm.ddns.net/sitemap_index.xml"
+print("Using Default URL:",url)
 
 print("\n\n")
 
@@ -39,11 +41,15 @@ for sitemaps in sitemapTags:
     if sitemaps.string.endswith(".xml"):
         sitemapURLList.append(sitemaps.string)
 
-wantToReplace = input("Do you want to replace text in files?\ntype 'y' for yes or 'n' or leave blank for no: \n\n")
+# wantToReplace = input("Do you want to replace text in files?\ntype 'y' for yes or 'n' or leave blank for no: \n\n")
+wantToReplace = "y"
 if wantToReplace == ('y' or 'Y'):
-    textToReplace = input("enter the text to replace: ")
-    textToBeReplacedWith = input("enter the text to be replaced with: ")
-wantHttps = input("\n\nWant to change \"http\" to \"https\" for custom URL?: \ntype 'y' for yes or 'n' or leave blank for no: \n")
+    # textToReplace = input("enter the text to replace: ")
+    textToReplace = "//ftm"
+    # textToBeReplacedWith = input("enter the text to be replaced with: ")
+    textToBeReplacedWith = "//fazals"
+# wantHttps = input("\n\nWant to change \"http\" to \"https\" for custom URL?: \ntype 'y' for yes or 'n' or leave blank for no: \n")
+wantHttps = 'y'
 print("\n\n")
 for linksFromSitemaps in sitemapURLList:
     if wantToReplace == ('y' or 'Y'):
