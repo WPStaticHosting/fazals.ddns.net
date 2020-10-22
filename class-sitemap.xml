@@ -2,7 +2,23 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://fazals.ddns.net/class/</loc>
-		<lastmod>2020-10-21T23:46:51+05:30</lastmod>
+		<lastmod>2020-10-22T17:08:01+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec520-class-17/</loc>
+		<lastmod>2020-10-22T17:08:01+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec5520-class-19/</loc>
+		<lastmod>2020-10-22T17:07:13+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec510-class-18/</loc>
+		<lastmod>2020-10-22T17:06:40+05:30</lastmod>
+	</url>
+	<url>
+		<loc>https://fazals.ddns.net/class/ec530-class-24/</loc>
+		<lastmod>2020-10-22T17:06:11+05:30</lastmod>
 	</url>
 	<url>
 		<loc>https://fazals.ddns.net/class/ec530-class-23/</loc>
