@@ -23,11 +23,11 @@ print("""*****************************************************************
 
 # url = input("\n\nEnter the URL to the Sitemaps Index\nLeave blank for using default:\n\n")
 # if len(url) < 1:
-#     url = "http://ftm.ddns.net/sitemap_index.xml"
+#     url = "http://192.168.0.102/sitemap_index.xml"
 #     print("Using Default URL:",url)
 # else:
 #     print("Using URL:",url)
-url = "http://ftm.ddns.net/sitemap_index.xml"
+url = "http://192.168.0.102/sitemap_index.xml"
 print("Using Default URL:",url)
 
 print("\n\n")

@@ -1,275 +1,251 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//fazals.ddns.net/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//192.168.0.102/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://fazals.ddns.net/how-do-i-log-every-domain-links-my-device-is-connecting-to-especially-android-and-ios/</loc>
+		<loc>http://192.168.0.102/how-do-i-log-every-domain-links-my-device-is-connecting-to-especially-android-and-ios/</loc>
 		<lastmod>2020-08-17T15:32:09+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/glass-wire-network-monitoring.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/glass-wire-network-monitoring.png</image:loc>
 			<image:title><![CDATA[glass wire network monitoring]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/play-store-icon.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/play-store-icon.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/macau-the-city-of-dreams/</loc>
+		<loc>http://192.168.0.102/macau-the-city-of-dreams/</loc>
 		<lastmod>2020-08-17T13:12:00+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/05/Macau-Featured-Image.jpg</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/05/Macau-Featured-Image.jpg</image:loc>
 			<image:title><![CDATA[Macau Featured Image]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://i1.wp.com/ftm.ddns.net/wp-content/uploads/2020/08/img_1097-1-scaled-1.jpg</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/img_1217-scaled-1.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://i0.wp.com/ftm.ddns.net/wp-content/uploads/2020/08/img_1173-1-scaled-1.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://i1.wp.com/ftm.ddns.net/wp-content/uploads/2020/08/img_1185-1-scaled-1.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://i1.wp.com/ftm.ddns.net/wp-content/uploads/2020/08/img_1186-1-scaled-1.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/img_1217-scaled-1.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/img_1305-scaled-1.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://i0.wp.com/ftm.ddns.net/wp-content/uploads/2020/08/img_1399-2-scaled-1.jpg?resize=1920%2C1920</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://i0.wp.com/ftm.ddns.net/wp-content/uploads/2020/08/img_1400-2-scaled-1.jpg?resize=1920%2C1920</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://i2.wp.com/ftm.ddns.net/wp-content/uploads/2020/08/img_1439-2-scaled-1.jpg?resize=1920%2C1920</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://i1.wp.com/ftm.ddns.net/wp-content/uploads/2020/08/img_1447-scaled-1.jpg?resize=1440%2C1440</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/img_1305-scaled-1.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/how-can-i-get-free-domain/</loc>
+		<loc>http://192.168.0.102/how-can-i-get-free-domain/</loc>
 		<lastmod>2020-08-17T13:07:31+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/05/free-domain.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/05/free-domain.png</image:loc>
 			<image:title><![CDATA[free-domain]]></image:title>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/platformio-arduino-with-vscode/</loc>
+		<loc>http://192.168.0.102/platformio-arduino-with-vscode/</loc>
 		<lastmod>2020-08-17T13:06:06+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/06/PlatformIO.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/06/PlatformIO.png</image:loc>
 			<image:title><![CDATA[PlatformIO]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/PlatformIO-Home-1024x654-1.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/PlatformIO-Home-1024x654-1.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/New-project-300x233-1.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/New-project-300x233-1.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/file-structure-1.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/file-structure-1.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/06/upload-button.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/06/upload-button.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/toggle-a-pin-in-8051-every-1-second-using-timers/</loc>
+		<loc>http://192.168.0.102/toggle-a-pin-in-8051-every-1-second-using-timers/</loc>
 		<lastmod>2020-08-17T13:00:30+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/05/Delay-using-8051-Timers-Featured-Image.jpg</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/05/Delay-using-8051-Timers-Featured-Image.jpg</image:loc>
 			<image:title><![CDATA[Delay-using-8051-Timers-Featured-Image]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/TMOD.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/TMOD.png</image:loc>
 			<image:title><![CDATA[the TMOD register visual]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/machine-cycle-time-period.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/machine-cycle-time-period.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/what-is-blynk-and-how-to-use-it/</loc>
+		<loc>http://192.168.0.102/what-is-blynk-and-how-to-use-it/</loc>
 		<lastmod>2020-08-17T12:58:43+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/07/blynk-apppp.jpg</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/07/blynk-apppp.jpg</image:loc>
 			<image:title><![CDATA[blynk-apppp]]></image:title>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/pi-hole-install/</loc>
+		<loc>http://192.168.0.102/pi-hole-install/</loc>
 		<lastmod>2020-08-17T12:57:26+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/04/pi-hole-official-image.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/04/pi-hole-official-image.png</image:loc>
 			<image:title><![CDATA[pi hole official image]]></image:title>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/how-to-turn-your-raspberry-pi-as-a-downloading-client-both-torrent-and-regular-downloads-and-nas/</loc>
+		<loc>http://192.168.0.102/how-to-turn-your-raspberry-pi-as-a-downloading-client-both-torrent-and-regular-downloads-and-nas/</loc>
 		<lastmod>2020-08-17T12:56:07+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/07/Rpi-Nas.jpg</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/07/Rpi-Nas.jpg</image:loc>
 			<image:title><![CDATA[Rpi-Nas]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Rpi-with-a-HDD.jpg</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/Rpi-with-a-HDD.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/blynk-ota-arduino-nodemcu-esps/</loc>
+		<loc>http://192.168.0.102/blynk-ota-arduino-nodemcu-esps/</loc>
 		<lastmod>2020-08-17T12:53:38+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/06/architecture.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/06/architecture.png</image:loc>
 			<image:title><![CDATA[architecture]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/network-ports.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/network-ports.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/spectrum-analyser-part-2/</loc>
+		<loc>http://192.168.0.102/spectrum-analyser-part-2/</loc>
 		<lastmod>2020-08-17T12:51:30+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Spectrum-Analyser-Part-2.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/Spectrum-Analyser-Part-2.png</image:loc>
 			<image:title><![CDATA[Spectrum-Analyser-Part-2]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Spectrum-Analyser-Part-2.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/Spectrum-Analyser-Part-2.png</image:loc>
 			<image:title><![CDATA[Time and Frequency domain representation]]></image:title>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/spectrum-analyser-part-1/</loc>
+		<loc>http://192.168.0.102/spectrum-analyser-part-1/</loc>
 		<lastmod>2020-08-17T12:49:55+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/05/Spectrum-Analyser-Part-1.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/05/Spectrum-Analyser-Part-1.png</image:loc>
 			<image:title><![CDATA[Spectrum Analyser Part 1]]></image:title>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/seven-segment-display-with-8051-proteus-simulation/</loc>
+		<loc>http://192.168.0.102/seven-segment-display-with-8051-proteus-simulation/</loc>
 		<lastmod>2020-08-17T12:47:41+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/7-segment-displaying-hello.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/7-segment-displaying-hello.png</image:loc>
 			<image:title><![CDATA[7-segment-displaying-hello]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/7-Segment-Display.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/7-Segment-Display.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/7-Segment-Display-Module.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/7-Segment-Display-Module.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/7-Segment-Schematic.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/7-Segment-Schematic.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/7-segment-displaying-hello.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/7-segment-displaying-hello.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/scrcpy-android-screen-mirroring/</loc>
+		<loc>http://192.168.0.102/scrcpy-android-screen-mirroring/</loc>
 		<lastmod>2020-08-17T12:42:42+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/04/Scrcpy-Android-screen-mirroring.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/04/Scrcpy-Android-screen-mirroring.png</image:loc>
 			<image:title><![CDATA[Scrcpy Android screen mirroring]]></image:title>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/what-is-cloud/</loc>
+		<loc>http://192.168.0.102/what-is-cloud/</loc>
 		<lastmod>2020-08-17T12:37:34+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/04/Google-Cloud.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/04/Google-Cloud.png</image:loc>
 			<image:title><![CDATA[Google Cloud]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/gcp-services.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/gcp-services.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/linux-on-windows/</loc>
+		<loc>http://192.168.0.102/linux-on-windows/</loc>
 		<lastmod>2020-08-17T12:36:02+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/04/linux-on-windows.jpg</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/04/linux-on-windows.jpg</image:loc>
 			<image:title><![CDATA[linux on windows]]></image:title>
 			<image:caption><![CDATA[install linux on windows 10 WSL]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/blynk-server-setup/</loc>
+		<loc>http://192.168.0.102/blynk-server-setup/</loc>
 		<lastmod>2020-08-17T12:34:34+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/04/Blynk_logo.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/04/Blynk_logo.png</image:loc>
 			<image:title><![CDATA[Blynk_logo]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/play-store-icon.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/play-store-icon.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/App-store-icon.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/App-store-icon.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/04/Server-Options.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/04/Server-Options.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/generate-a-square-wave-using-8051/</loc>
+		<loc>http://192.168.0.102/generate-a-square-wave-using-8051/</loc>
 		<lastmod>2020-08-17T12:30:44+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/04/Screenshot-172.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/04/Screenshot-172.png</image:loc>
 			<image:title><![CDATA[Square Wave in Proteus]]></image:title>
 			<image:caption><![CDATA[Square Wave in Proteus using 8051]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/proteus-DAC8080-schematic.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/proteus-DAC8080-schematic.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-161.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/Screenshot-161.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-163.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/Screenshot-163.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-173.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/Screenshot-173.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-169.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/Screenshot-169.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-170.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/Screenshot-170.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-171.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/Screenshot-171.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-172.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/Screenshot-172.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/create-website-for-free/</loc>
+		<loc>http://192.168.0.102/create-website-for-free/</loc>
 		<lastmod>2020-08-17T11:42:14+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/04/how-to-create-a-website-free-of-cost.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/04/how-to-create-a-website-free-of-cost.png</image:loc>
 			<image:title><![CDATA[create-a-website-free-of-cost]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/29985a98-ubuntu-logo32.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/29985a98-ubuntu-logo32.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/apache-logo.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/apache-logo.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/mysql-512.png</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/08/mysql-512.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://fazals.ddns.net/want-to-access-blocked-websites-heres-how/</loc>
+		<loc>http://192.168.0.102/want-to-access-blocked-websites-heres-how/</loc>
 		<lastmod>2020-08-17T11:34:00+05:30</lastmod>
 		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/04/blocked.jpg</image:loc>
+			<image:loc>http://192.168.0.102/wp-content/uploads/2020/04/blocked.jpg</image:loc>
 			<image:title><![CDATA[blocked]]></image:title>
 		</image:image>
 	</url>
