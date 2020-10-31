@@ -18,7 +18,7 @@ Light_Cyan='\033[1;36m'
 White='\033[1;37m'
 NC='\033[0m' # No Color
 
-web=/var/www/html/wp-content/uploads/static-html-output/
+web=/var/www/ftm.ddns.net/wp-content/uploads/static-html-output/
 now="$(date +%B) $(date +%d) $(date +%Y) $(date +%T)"
 commit_message="Adding Files on $now"
 
@@ -36,23 +36,23 @@ printf "${Yellow}INFO: ${Cyan}Current Working Directory: ${Light_Purple}$web\n"
 ./ExtractAndReplaceXML.py
 
 # Show git status
-git status >> /var/www/html/generate.log
+git status >> /var/www/ftm.ddns.net/generate.log
 
 printf "${Yellow}INFO: ${Cyan}Staging the changes..!!\n"
 # Adding changes in directory to git
-git add . >> /var/www/html/generate.log
+git add . >> /var/www/ftm.ddns.net/generate.log
 
 printf "${Yellow}INFO: ${Cyan}Commiting changes to git repo..!!\n"
 printf "${Yellow}INFO: ${Cyan}Commit Message: ${Light_Purple}'$commit_message'\n"
 # Commit the newly generated files
-git commit -m "$commit_message" >> /var/www/html/generate.log
+git commit -m "$commit_message" >> /var/www/ftm.ddns.net/generate.log
 
 printf "${Yellow}INFO: ${Cyan}Pulling from remote repo..!!\n"
 # Pull from remote repo
-git pull origin master >> /var/www/html/generate.log
+git pull origin master >> /var/www/ftm.ddns.net/generate.log
 
 printf "${Yellow}INFO: ${Cyan}Pushing to remote repo..!!\n"
 # Push to remote repo
-git push -u origin master >> /var/www/html/generate.log
+git push -u origin master >> /var/www/ftm.ddns.net/generate.log
 
 printf "${Green}******************************EXPORTED******************************\n"
