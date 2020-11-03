@@ -2,23 +2,23 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>http://192.168.0.102/class/</loc>
-		<lastmod>2020-11-03T09:37:47+05:30</lastmod>
+		<lastmod>2020-11-03T10:06:13+05:30</lastmod>
 	</url>
 	<url>
 		<loc>http://192.168.0.102/class/ec530-class-28/</loc>
-		<lastmod>2020-11-03T09:37:47+05:30</lastmod>
+		<lastmod>2020-11-03T10:06:13+05:30</lastmod>
 	</url>
 	<url>
 		<loc>http://192.168.0.102/class/ec520-class-19/</loc>
-		<lastmod>2020-11-03T09:36:14+05:30</lastmod>
+		<lastmod>2020-11-03T10:06:06+05:30</lastmod>
 	</url>
 	<url>
-		<loc>http://192.168.0.102/class/ec560/</loc>
-		<lastmod>2020-11-03T09:35:46+05:30</lastmod>
+		<loc>http://192.168.0.102/class/ec560-class-16/</loc>
+		<lastmod>2020-11-03T10:05:57+05:30</lastmod>
 	</url>
 	<url>
 		<loc>http://192.168.0.102/class/ec510-class-21/</loc>
-		<lastmod>2020-11-03T09:35:15+05:30</lastmod>
+		<lastmod>2020-11-03T10:05:50+05:30</lastmod>
 	</url>
 	<url>
 		<loc>http://192.168.0.102/class/ec550-class-22/</loc>
