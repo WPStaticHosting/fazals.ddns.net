@@ -1,55 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//192.168.0.102/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//fazals.ddns.net/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://192.168.0.102/category/uncategorized/</loc>
+		<loc>https://fazals.ddns.net/category/uncategorized/</loc>
 		<lastmod>2020-08-17T12:58:43+05:30</lastmod>
 	</url>
 	<url>
-		<loc>http://192.168.0.102/category/tech/</loc>
+		<loc>https://fazals.ddns.net/category/tech/</loc>
 		<lastmod>2020-08-17T13:07:31+05:30</lastmod>
 	</url>
 	<url>
-		<loc>http://192.168.0.102/category/webdev/</loc>
+		<loc>https://fazals.ddns.net/category/webdev/</loc>
 		<lastmod>2020-08-17T13:07:31+05:30</lastmod>
 	</url>
 	<url>
-		<loc>http://192.168.0.102/category/iot/</loc>
+		<loc>https://fazals.ddns.net/category/iot/</loc>
 		<lastmod>2020-08-17T12:58:43+05:30</lastmod>
 	</url>
 	<url>
-		<loc>http://192.168.0.102/category/education/</loc>
+		<loc>https://fazals.ddns.net/category/education/</loc>
 		<lastmod>2020-08-17T13:00:30+05:30</lastmod>
 	</url>
 	<url>
-		<loc>http://192.168.0.102/category/programming/</loc>
+		<loc>https://fazals.ddns.net/category/programming/</loc>
 		<lastmod>2020-08-17T13:06:06+05:30</lastmod>
 	</url>
 	<url>
-		<loc>http://192.168.0.102/category/python/</loc>
+		<loc>https://fazals.ddns.net/category/python/</loc>
 		<lastmod>2020-08-17T12:51:30+05:30</lastmod>
 	</url>
 	<url>
-		<loc>http://192.168.0.102/category/travel/</loc>
+		<loc>https://fazals.ddns.net/category/travel/</loc>
 		<lastmod>2020-08-17T13:12:00+05:30</lastmod>
 	</url>
 	<url>
-		<loc>http://192.168.0.102/category/assembly/</loc>
+		<loc>https://fazals.ddns.net/category/assembly/</loc>
 		<lastmod>2020-08-17T13:00:30+05:30</lastmod>
 	</url>
 	<url>
-		<loc>http://192.168.0.102/category/android/</loc>
+		<loc>https://fazals.ddns.net/category/android/</loc>
 		<lastmod>2020-08-17T15:32:09+05:30</lastmod>
 	</url>
 	<url>
-		<loc>http://192.168.0.102/category/arduino/</loc>
+		<loc>https://fazals.ddns.net/category/arduino/</loc>
 		<lastmod>2020-08-17T13:06:06+05:30</lastmod>
 	</url>
 	<url>
-		<loc>http://192.168.0.102/category/raspberry-pi/</loc>
+		<loc>https://fazals.ddns.net/category/raspberry-pi/</loc>
 		<lastmod>2020-08-17T12:56:07+05:30</lastmod>
 	</url>
 	<url>
-		<loc>http://192.168.0.102/category/windows/</loc>
+		<loc>https://fazals.ddns.net/category/windows/</loc>
 		<lastmod>2020-08-17T15:32:09+05:30</lastmod>
 	</url>
 </urlset>

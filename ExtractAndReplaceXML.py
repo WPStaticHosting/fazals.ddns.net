@@ -27,7 +27,7 @@ print("""*****************************************************************
 #     print("Using Default URL:",url)
 # else:
 #     print("Using URL:",url)
-url = "http://192.168.0.102/sitemap_index.xml"
+url = "https://ftm.ddns.net/sitemap_index.xml"
 print("Using Default URL:",url)
 
 print("\n\n")
