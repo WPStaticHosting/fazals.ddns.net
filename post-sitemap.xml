@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//fazals.ddns.net/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
+		<loc>https://fazals.ddns.net/generate-a-square-wave-using-8051/</loc>
+		<lastmod>2021-01-13T20:06:54+05:30</lastmod>
+		<image:image>
+			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/04/Screenshot-172.png</image:loc>
+			<image:title><![CDATA[Square Wave in Proteus]]></image:title>
+			<image:caption><![CDATA[Square Wave in Proteus using 8051]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/proteus-DAC8080-schematic.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-161.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-163.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-173.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-169.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-170.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-171.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-172.png</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://fazals.ddns.net/how-do-i-log-every-domain-links-my-device-is-connecting-to-especially-android-and-ios/</loc>
 		<lastmod>2020-08-17T15:32:09+05:30</lastmod>
 		<image:image>
@@ -213,39 +246,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/04/Server-Options.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://fazals.ddns.net/generate-a-square-wave-using-8051/</loc>
-		<lastmod>2020-08-17T12:30:44+05:30</lastmod>
-		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/04/Screenshot-172.png</image:loc>
-			<image:title><![CDATA[Square Wave in Proteus]]></image:title>
-			<image:caption><![CDATA[Square Wave in Proteus using 8051]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/proteus-DAC8080-schematic.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-161.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-163.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-173.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-169.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-170.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-171.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://fazals.ddns.net/wp-content/uploads/2020/08/Screenshot-172.png</image:loc>
 		</image:image>
 	</url>
 	<url>
