@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Nyquist Theorem &#8211; Deep Focus</title>
+	<atom:link href="https://fazals.ddns.net/tag/nyquist-theorem/feed/" rel="self" type="application/rss+xml" />
+	<link>https://fazals.ddns.net/</link>
+	<description>Embrace it!</description>
+	<lastBuildDate>Thu, 04 Feb 2021 08:19:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.1</generator>
+
+<image>
+	<url>https://fazals.ddns.net/wp-content/uploads/2020/08/react-native-300-150x150.png</url>
+	<title>Nyquist Theorem &#8211; Deep Focus</title>
+	<link>https://fazals.ddns.net/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">173186184</site>	<item>
+		<title>Sampling theorem &#124; Verification of NYQUIST&#8217;S sampling theorem using MATLAB</title>
+		<link>https://fazals.ddns.net/sampling-theorem-nyquists-theorem-using-matlab/</link>
+		
+		<dc:creator><![CDATA[fazalfarhan01]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2021 08:18:32 +0000</pubDate>
+				<category><![CDATA[Education]]></category>
+		<category><![CDATA[DSP]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[digital signal processing]]></category>
+		<category><![CDATA[MATLAB]]></category>
+		<category><![CDATA[Nyquist Theorem]]></category>
+		<category><![CDATA[Over Sampling]]></category>
+		<category><![CDATA[Perfect Sampling]]></category>
+		<category><![CDATA[Sampling Theorem]]></category>
+		<category><![CDATA[Under Sampling]]></category>
+		<guid isPermaLink="false">https://fazals.ddns.net/?p=3168</guid>
+
+					<description><![CDATA[Verification of the Sampling Theorem or the Nyquist Theorem using MATLAB code.]]></description>
+										<content:encoded><![CDATA[
+<p>We all know that there are two kinds of signals: <br>1. Analog Signals<br>2. Digital Signals<br>We know that the signals that exists in nature are analog by default. And we also know that the signals that we store on our computers and memory devices like pen-drives, hard disks, SD cards and so on are of-course digital in nature.<br>Now the question that might come to your mind:</p>
+
+
+
+<h2>how do you convert an <strong>analog signal</strong> to a <strong>digital signal</strong>?</h2>
+
+
+
+<p>The answer to that is simple, first we sample the analog signal, and then we quantize it. <strong><span class="has-inline-color has-vivid-cyan-blue-color">Sampling </span></strong>is a process where in you hold the analog signal&#8217;s amplitude for a brief amount of time, so that the <span class="has-inline-color has-vivid-green-cyan-color">continuous time</span> and <span class="has-inline-color has-vivid-green-cyan-color">continuous valued</span> signal, becomes <span class="has-inline-color has-luminous-vivid-orange-color">discrete time</span>, <span class="has-inline-color has-vivid-green-cyan-color">continuous valued</span> signal.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><img loading="lazy" src="https://fazals.ddns.net/wp-content/uploads/2021/02/sampling.jpg" alt="Sampling Theorem" class="wp-image-3170" width="463" height="202" srcset="https://fazals.ddns.net/wp-content/uploads/2021/02/sampling.jpg 392w, https://fazals.ddns.net/wp-content/uploads/2021/02/sampling-300x131.jpg 300w" sizes="(max-width: 463px) 100vw, 463px" /><figcaption>The given image simply demonstrates how an analog signal in sampled.</figcaption></figure></div>
+
+
+
+<h2>Sampling Theorem</h2>
+
+
+
+<p>Now, there&#8217;s a theorem that governs the sampling process. <strong><a href="https://en.wikipedia.org/wiki/Harry_Nyquist" class="rank-math-link" target="_blank" rel="noopener">Harry Nyquist</a></strong>, a Swedish electronic engineer came up with it. Now, it&#8217;s known as the <strong>sampling theorem</strong>.</p>
+
+
+
+<p>Sampling Theorem states that the minimum sampling rate for an analog signal, when uniformly sampled is <strong>two </strong>times that <strong>frequency of the analog signal</strong> being sampled. Or in simple words, the sampling frequency must be twice that of the signal being sampled.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><img loading="lazy" src="https://latex.codecogs.com/gif.latex?f_%7Bs%7D%20%3E%3D%202f_%7Bm%7D" alt="" width="132" height="27" title="This is the rendered form of the equation. You can not edit this directly. Right click will give you the option to save the image, and in most browsers you can drag the image onto your desktop or another program."/></figure></div>
+
+
+
+<p>This minimum frequency, or the sampling rate is also called as the <span class="has-inline-color has-vivid-cyan-blue-color">Nyquist rate</span>.</p>
+
+
+
+<h2>Proving Sampling Theorem in <a href="https://en.wikipedia.org/wiki/MATLAB" class="rank-math-link" target="_blank" rel="noopener">MATLAB</a>.</h2>
+
+
+
+<p>So basically, we need to prove that when a signal is sampled at a frequency less than the Nyquist Sampling rate, proper recovery of the signal is not possible. We can easily prove it in the frequency domain. When the sampling frequency is less than Nyquist Rate, we can show that the <span class="has-inline-color has-luminous-vivid-orange-color">recovered signal&#8217;s frequency</span> is <strong>not same</strong> as that of the actual analog signal.</p>
+
+
+
+<h2>MATLAB Code to prove Nyquist Sampling Theorem</h2>
+
+
+
+<p>You can download the complete code at the end of this post.</p>
+
+
+
+<p>Before we start, we make sure that the workspace is cleaned.</p>
+
+
+
+<pre title="Clearing the workspace and command window" id="code" class="wp-block-code"><code lang="matlab" class="language-matlab">clear all;
+close all;
+clc;</code></pre>
+
+
+
+<p>Next, we initialize all the required variables</p>
+
+
+
+<pre title="Initializing the required variables" class="wp-block-code"><code lang="matlab" class="language-matlab">widthOfTheLine = 1.5;
+numberOfWaves = 5; % Number of waveforms to be shown
+messageSignalFrequency = input("Enter the Message Signal Frequency: "); % Taking the user's input for Message Signal Frequency
+initialSamplingFreq = 50*messageSignalFrequency; % Sampling Frequency for Unsampled Signal
+timePerSample = 1/initialSamplingFreq; % Time needed for a single sample
+stopTime = 1; % Samples to be generated up to.
+timeAxis = 0:timePerSample:stopTime-timePerSample; % Generating the time axis
+totalNumberOfSamples = size(timeAxis,2); % Calculating the number of samples
+samplingFrequencyInterval = initialSamplingFreq/totalNumberOfSamples; % Calculating the frequency interval to generate the frequency axis;
+frequencyAxis = -initialSamplingFreq/2:samplingFrequencyInterval:initialSamplingFreq/2-samplingFrequencyInterval; % Generating the Frequency Axis
+phiDegrees = 90; % in degrees
+phi = phiDegrees * pi / 180;</code></pre>
+
+
+
+<ol><li>widthOfTheLine &#8211; It is the width of the line on the plot.</li><li>numberOfWaves &#8211; Number of waves of the signal to be shown on the plot. </li><li>messageSignalFrequency &#8211; Frequency of the signal to be sampled.</li><li>initialSamplingFreq &#8211; It is 50 times that of the message signal frequency, just to show the unsampled analog signal as smooth as possible.</li><li>stopTime &#8211; Samples will be generated up to <strong>stopTime</strong>.</li></ol>
+
+
+
+<p>We take a 90 degree phase shift so as to avoid the &#8220;0&#8221; sampled signal value for a perfectly sampled signal. You could easily replace the <span class="has-inline-color has-vivid-cyan-blue-color">sin</span> with a <span class="has-inline-color has-vivid-cyan-blue-color">cos</span> function and avoid adding the phase shift to the signal.</p>
+
+
+
+<h3>Check Out my other Posts</h3>
+
+
+<ul class="wp-block-latest-posts__list wp-block-latest-posts"><li><a href="https://fazals.ddns.net/sampling-theorem-nyquists-theorem-using-matlab/">Sampling theorem | Verification of NYQUIST&#8217;S sampling theorem using MATLAB</a></li>
+<li><a href="https://fazals.ddns.net/how-do-i-log-every-domain-links-my-device-is-connecting-to-especially-android-and-ios/">How do I log every domain/links my device is connecting to? Especially Android and iOS</a></li>
+</ul>
+
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3168</post-id>	</item>
+	</channel>
+</rss>
