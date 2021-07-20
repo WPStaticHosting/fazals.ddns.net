@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: fazals.ddns.net
+Token: 55540102d4b0baf833a2eea4d10fde020a725a216088e0165f4e9582d0d9ba71
