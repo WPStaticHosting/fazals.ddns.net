@@ -8,7 +8,7 @@
 <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
 	<xsl:template match="/">
 		<html xmlns="http://www.w3.org/1999/xhtml">
-			<head>
+			<head><script async src="https://arc.io/widget.min.js#wZ33buYr"></script>
 				<title>XML Sitemap - Deep Focus</title>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 				<style type="text/css">
